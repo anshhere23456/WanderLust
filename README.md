@@ -11,21 +11,21 @@ Wanderlust is a full-stack travel/hotel listing web application inspired by plat
 ☁️ Cloudinary image upload system
 🧠 Server-side validation and error handling
 🛠️ Tech Stack
-Frontend:
 
-HTML, CSS (Bootstrap), JavaScript, EJS
-Backend:
 
-Node.js, Express.js
-Database:
+Frontend: HTML, CSS (Bootstrap), JavaScript, EJS
 
-MongoDB, Mongoose
-Authentication:
 
-Passport.js (Local Strategy)
-Other Tools:
+Backend: Node.js, Express.js
 
-Cloudinary, Multer, Mapbox, Express-session
+
+Database: MongoDB, Mongoose
+
+
+Authentication: Passport.js (Local Strategy)
+
+
+Other Tools: Cloudinary, Multer, Mapbox, Express-session
 🔐 Authentication Users can register, login, and logout securely.
 
 Passwords are hashed using Passport.js local strategy.
