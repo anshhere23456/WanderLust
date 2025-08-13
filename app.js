@@ -34,7 +34,7 @@ app.use(express.static(path.join(__dirname, "/public")));
 
 
 const sessionOptions = {
-    secret: process.env.SECRET,
+    secret: "mysupersecretcode",
     resave: false,
     saveUninitialized: true,
     cookie: {
@@ -49,11 +49,10 @@ const sessionOptions = {
 
 
 app.use(session({
-    secret: process.env.SECRET,
+    secret: "mysupersecretcode",
     resave: false,
     saveUninitialized: true,
 }));
-
 app.use(flash());
 
 app.use(passport.initialize());
